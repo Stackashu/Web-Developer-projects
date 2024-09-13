@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+h1{
+    margin-top:10px;
+    margin-left: 110px;
+
+}
+
+.container{
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    border-style: solid;
+    margin-top:40px;
+    margin-left: 160px ;
+    border-radius: 8px;
+    opacity: 0.5;
+}
+
+.buttons{
+    height: 50px;
+    width: 50px;
+    border-radius: 8px;
+    margin:10px;
+    cursor: pointer;
+}
+
+#yellow{
+    background-color: yellow;
+}
+#blue{
+    background-color: blue;
+}
+#green{
+    background-color: green;
+}
+#purple{
+    background-color: purple;
+}
