@@ -2,7 +2,10 @@
 // which will work for just 20-30 days adn you must make your account on this to get your personal API Key
 // use this link for weather api = "https://openweathermap.org/"
 
-const apiKey = "dbd036a57a535348f1583f28e6afe7ca"
+
+
+// removed my apiKey add yours here
+const apiKey = ""
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric"
 
 let areaInput = document.querySelector("input")
