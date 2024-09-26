@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+   <style>
+        .hidden{
+            display: none;
+        }
+    </style>
+</head>
+<body class="w-screen h-screen">
+   
+    <div class="container flex flex-col justify-center items-center w-full h-full  bg-black size-52">
+        <input type="text" class="input-name border-black px-8 font-extrabold   border-blue-800 m-2 text-white rounded-full w-64 border-4   font-black bg-black  p-3 " placeholder="Enter your name">
+        <input type="text" class="input-designation border-black px-8 font-extrabold  border-blue-800 m-2 text-white rounded-full w-64 border-4   font-black bg-black  p-3 " placeholder=" Enter your Designation">
+        <button  target="_top" class=" submit  m-4 rounded-full px-5 py-3 bg-blue-700 border-4 hover:bg-blue-950 hover:text-white ">SUBMIT</button>
+    </div>
+    
+    <div class="scontainer hidden w-screen h-screen flex  flex-col justify-center  bg-black  items-center">
+     <div class="capture w-full h-full  bg-center bg-no-repeat rounded-xl " style="background-image: url('bday.jpg');">
+        <p  class="name text-2xl " style="color: rgb(190, 107, 72); margin-left: 450px;margin-top:340px;">Name</p>
+        <p class="designation text-2xl " style="color: rgb(190, 107, 72); margin-left: 450px;"> Designation</p>
+     </div>
+     <div class=" flex justify-center items-center">
+     <a  href="bday.html" target="_top" class="  back border m-4 rounded-full px-5 py-3 bg-blue-700 border-4 hover:bg-blue-950 hover:text-white ">GO BACK</a>
+     <a  href="bday.html" target="_top" class=" download border m-4 rounded-full px-5 py-3 bg-blue-700 border-4 hover:bg-blue-950 hover:text-white ">DOWNLOAD</a>
+    </div>
+    </div>
+<script src="index.js"></script>
+</body>
+</html>
